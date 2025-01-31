@@ -1,0 +1,17 @@
+site_name: My Docs
+theme:
+  name: material
+  palette:
+    scheme: slate  # Dark mode
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+  extra_css:
+    - assets/custom.css
+  markdown_extensions:
+    - attr_list
+    - md_in_html
+    - pymdownx.highlight
+    - pymdownx.superfences
+ 
